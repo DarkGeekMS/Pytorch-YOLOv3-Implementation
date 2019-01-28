@@ -10,29 +10,29 @@ YOLO9000.
 ### Utilized Technologies and Frameworks
 
 - Pytorch.
-- Basic Python Data Manipulation Packages (Matplotlib,....etc)
+- Basic Python Data Manipulation Packages (Matplotlib,....etc).
 
 ### Repository Structure
 
 **1) Main Files:**
-- yolov3_model.py: contains the definition of YOLOv3 architecture.
-- yolov3_train.py: contains the training setup of the network.
-- yolov3_validate.py: contains the validation setup to test your trained model.
-- yolov3_detect.py: contains the setup to run inference on images using the trained model.
+- **yolov3_model.py:** contains the definition of YOLOv3 architecture.
+- **yolov3_train.py:** contains the training setup of the network.
+- **yolov3_validate.py:** contains the validation setup to test your trained model.
+- **yolov3_detect.py:** contains the setup to run inference on images using the trained model.
 
 **2) Configs:**
-- yolov3.cfg: contains the configuration of the neural network architecture along with hyperparameters.
-- yolov3.data: contains the paths to the data and number of classes.
-- yolov3.names: contains the names of the classes.
+- **yolov3.cfg:** contains the configuration of the neural network architecture along with hyperparameters.
+- **yolov3.data:** contains the paths to the data and number of classes.
+- **yolov3.names:** contains the names of the classes.
 
 **3) Data Preparation:**
-- img_prep.py: used to prepare the dataset images for the model.
-- label_prep.py: used to prepare the labels (bounding boxes) for the model.
+- **img_prep.py:** used to prepare the dataset images for the model.
+- **label_prep.py:** used to prepare the labels (bounding boxes) for the model.
 
 **4) Utilities:**
-- data_classes.py: contains the classes for the dataloader.
-- helper_func.py: contains some functions to parse config files.
-- yolov3_utils.py: contains some utility functions: non-max suppression, output preparation and some metrics.
+- **data_classes.py:** contains the classes for the dataloader.
+- **helper_func.py:** contains some functions to parse config files.
+- **yolov3_utils.py:** contains some utility functions: non-max suppression, output preparation and some metrics.
 
 ### How to Use it 
 
